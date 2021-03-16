@@ -9,7 +9,7 @@
  pool:
    - vmImage: 'Ubuntu-16.04'
 
-  steps:
+ steps:
   - task: Maven@3
     inputs:
       mavenPomFile: 'pom.xml'
