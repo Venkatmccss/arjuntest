@@ -6,8 +6,8 @@
  trigger:
   - main
 
-  pool:
-    vmImage: 'Ubuntu-16.04'
+ pool:
+   - vmImage: 'Ubuntu-16.04'
 
   steps:
   - task: Maven@3
